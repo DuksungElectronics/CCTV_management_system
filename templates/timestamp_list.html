@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>[Market {{market}}] 도난 의심 발생 기록</h1>
+    {% for s in stamp_list %}
+        <a href={{s[0]}}>{{s[1]}}</a></br>
+    {% endfor %}
+</body>
+</html>
